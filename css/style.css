@@ -1,0 +1,108 @@
+
+@import "./grid.css";
+:root {
+	--text-color: #333333;
+}
+body {
+	font-size: 17px;
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	background: var(--text-color);
+	color: #fff;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 26px 0;
+}
+p {
+	padding: 1em 0;
+}
+header {
+	background: url(./../images/pexels-photo.png);
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	
+}
+h1 {
+	padding: 100px 0 0 0;
+}
+
+footer a {
+	text-decoration: none;
+	color: #2690d4;
+}
+#mainLink {
+	display: inline-block;
+	text-decoration: none;
+	font-size: 17px;
+	border: 1px solid #666;
+	background: var(--text-color);
+	color: #fff;
+	padding: 18px 35px;
+	margin: 8px 0px;
+	
+}
+#mainLink:hover {
+	background: #fff;
+	color: var(--text-color);
+}
+.sectionApplication {
+	background: #eaeaea;
+		color: var(--text-color);
+		padding: 2em;
+}
+.sectionApplication p {
+	column-count: 2;
+}
+
+.sectionWebDevelop {
+	padding: auto;
+}
+img {
+	width: 100%;
+	
+ }
+.sectionWebDevelopChild {
+	
+	  background: #fff;
+	  color: var(--text-color);
+	  font-size: 17px;
+ }
+
+p.divSectionWebDevelop {
+margin: 0;
+margin-top: auto;
+
+ }
+ .sectionDigital {
+	background: #fff;
+	color: var(--text-color);
+	padding: 2em;
+}
+.sectionDigital p {
+	margin-bottom: 0;
+
+}
+
+.sectionContact, .sectionAbout {
+	color: #fff;
+	padding: 2em;}
+
+.sectionAbout{
+	background: var(--text-color);
+}	
+.sectionContact {
+	background: #2690d4;
+	}
+
+footer {
+	
+	background: #000;
+	color: #fff;
+}
+
+
